@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+temp_file.csv
+netflix.csv
 __pycache__/
 *.py[cod]
 *$py.class
