@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 
+
 url = 'https://drive.google.com/uc?id=1bJpHEb_axSoTiX0lSZb5yQr5EDTtzd5o&export=download'
 response = requests.get(url)
 
@@ -47,3 +48,6 @@ df1['rating'] = df1['rating'].replace(['NR','UR'],'nao_informado')
 
 
 df1.to_csv('netflix.csv', sep=';', decimal=',')
+
+
+
